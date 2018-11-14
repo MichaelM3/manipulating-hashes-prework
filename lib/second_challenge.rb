@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  grocery = []
+  groceries.each do |attribute, value|
+    grocery += value
+  end
+  grocery
 end
